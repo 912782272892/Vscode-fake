@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web con HTML + JS + SQL</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Usuarios</h1>
+
+  <div class="input-box">
+    <input type="text" id="name" placeholder="Nombre">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="addUser()">Agregar</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>ID</th><th>Nombre</th><th>Email</th></tr>
+    </thead>
+    <tbody id="table"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
